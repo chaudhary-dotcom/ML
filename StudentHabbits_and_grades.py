@@ -13,7 +13,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, ConfusionMatrixDis
 st.title("📊 Student Exam Result Classifier")
 
 # --- Load your dataset directly here ---
-df = pd.read_csv("student_habits_performance.csv")  # Replace with your actual CSV filename
+df = pd.read_csv("student_habits_performance.csv")  
 st.subheader("🔍 Data Preview")
 st.dataframe(df.head())
 
